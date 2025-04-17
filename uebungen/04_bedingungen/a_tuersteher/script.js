@@ -17,3 +17,32 @@
 * diese Anleitung zur Hilfe (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date?retiredLocale=de)
 * oder arbeite mit KI.
 * */
+
+// 04_bedingungen a_turesteher //
+
+let age = prompt("Wie alt bist du?");
+age = Number(age)
+
+
+function checkage(age) {
+    if (age < 16) {
+        console.log("Du bist zu junge für Alkohol!");
+    } else if (age >= 16 && age < 18) {
+        console.log("Du bist zu junge für Schnapps!");
+    } else {
+        console.log("Yeah, volljährig - kauf was du willst.");
+    }
+}
+
+/* oder so 
+
+function checkage(age) {
+    if (age >= 18) {
+        console.log("Yeah, volljährig - kauf was du willst.");
+    } else if (age >= 16 {
+        console.log("Du bist zu junge für Schnapps!");
+    } else {
+        console.log;("Du bist zu junge für Alkohol!");
+    }
+} 
+    */
